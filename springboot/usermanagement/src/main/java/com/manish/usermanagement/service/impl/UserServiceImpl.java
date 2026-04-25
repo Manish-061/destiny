@@ -6,6 +6,7 @@ import com.manish.usermanagement.entity.User;
 import com.manish.usermanagement.exception.ResourceNotFoundException;
 import com.manish.usermanagement.repository.UserRepository;
 import com.manish.usermanagement.service.UserService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,20 +15,31 @@ import java.util.stream.Collectors;
 @Service
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
+    private final BCryptPasswordEncoder passwordEncoder;
 
-    public UserServiceImpl(UserRepository userRepository) {
+    public UserServiceImpl(UserRepository userRepository,  BCryptPasswordEncoder passwordEncoder) {
         this.userRepository = userRepository; //bst practices
+        this.passwordEncoder = passwordEncoder;
     }
-
 
     @Override
     public UserResponseDTO createUser(UserRequestDTO request) {
+
+        if (request.getPassword() == null || request.getPassword().isBlank()) {
+            throw new IllegalArgumentException("Password cannot be empty");
+        }
+
+        if (userRepository.findByEmail(request.getEmail()).isPresent()) {
+            throw new IllegalArgumentException("Email already exists");
+        }
+
         User user = new User();
         user.setName(request.getName());
         user.setEmail(request.getEmail());
-        user.setPassword(request.getPassword());
+        user.setPassword(passwordEncoder.encode(request.getPassword()));
 
         User saved = userRepository.save(user);
+
         return mapToDTO(saved);
     }
 
@@ -54,7 +66,9 @@ public class UserServiceImpl implements UserService {
 
         user.setName(request.getName());
         user.setEmail(request.getEmail());
-        user.setPassword(request.getPassword());
+        if (request.getPassword() != null && !request.getPassword().isBlank()) {
+            user.setPassword(passwordEncoder.encode(request.getPassword()));
+        }
 
         return mapToDTO(userRepository.save(user));
     }
