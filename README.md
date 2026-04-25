@@ -39,3 +39,10 @@ Today the scope expanded into more advanced topics:
 - **Core Algorithms:** Implementing logic for finding Fibonacci series, reversing integers, checking for prime numbers, and printing patterns (e.g., Solid Rectangle).
 - **Arrays:** Exploring 1D and 2D arrays, including traversal and basic searching algorithms like Linear Search.
 - **Spring Boot Ecosystem:** Transitioned to backend development by building a complete User Management REST API using Spring Boot, Spring Web, and architectural best practices.
+
+### Day 3: Advanced Array Operations & Searching Algorithms
+
+Today focused on expanding array manipulation and searching capabilities:
+- **Advanced Array Operations:** Implemented logic for array reversal, filtering arrays (e.g., finding odd integers), and extracting specific values.
+- **Min/Max Operations:** Built utilities to find the minimum, maximum, and second maximum elements within an array.
+- **Searching Algorithms:** Implemented Binary Search for efficient searching in sorted arrays.
