@@ -26,6 +26,27 @@ Tracking my Data Structures & Algorithms preparation journey with:
 | 8 | Armstrong Number | Digit powers, number decomposition | ✅ |
 | 9 | GCD of Two Numbers | Euclidean Algorithm, modulo optimization | ✅ |
 
+## Arrays
+
+| # | Problem | Concepts Learned | Status |
+|---|---|---|---|
+| 1 | Array Basic | Array initialization, traversal | ✅ |
+| 2 | Count Even Odd | Conditional logic, array traversal | ✅ |
+| 3 | Linear Search | Sequential searching | ✅ |
+| 4 | Max Min | Comparisons, updating extremes | ✅ |
+| 5 | Missing Number | Mathematical formulation, array sum | ✅ |
+| 6 | Odd Elements Array | Filtering, conditionals | ✅ |
+| 7 | Resize Array | Dynamic sizing, array copying | ✅ |
+| 8 | Reverse Array | Two pointers, swapping | ✅ |
+| 9 | Sum Of Elements | Accumulation, traversal | ✅ |
+
+## NeetCode 250 Sheet
+
+| # | Problem | Concepts Learned | Status |
+|---|---|---|---|
+| 1 | Concatenation Of Array | Array duplication, lengths | ✅ |
+| 2 | Contain Duplicate | Hashing, frequency counting | ✅ |
+
 ---
 
 # Key Learnings So Far
@@ -96,7 +117,9 @@ core_java/
 ├── trees/
 ├── graphs/
 ├── DP/
-└── README.md
+
+neetcode_250_sheet/
+└── Solved Dsa Problems
 ```
 
 ---
