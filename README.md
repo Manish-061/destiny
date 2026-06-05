@@ -40,6 +40,19 @@ Tracking my Data Structures & Algorithms preparation journey with:
 | 8 | Reverse Array | Two pointers, swapping | ✅ |
 | 9 | Sum Of Elements | Accumulation, traversal | ✅ |
 
+## Object Oriented Programming (OOP)
+
+| # | Topic | Concepts Learned | Status |
+|---|---|---|---|
+| 1 | Object Creation | Class definition, instantiation | ✅ |
+| 2 | Default Constructor | No-arg constructors, default initialization | ✅ |
+| 3 | Parameterized Constructor | Constructor overloading, custom initialization | ✅ |
+| 4 | Copy Constructor | Object copying, state cloning | ✅ |
+| 5 | Single Inheritance | Base/derived classes, `extends` keyword | ✅ |
+| 6 | Multilevel Inheritance | Inheritance chains, class hierarchy | ✅ |
+| 7 | Hierarchical Inheritance | Multiple derived classes from single base | ✅ |
+| 8 | Encapsulation | Data hiding, getters/setters, access modifiers | ✅ |
+
 ## NeetCode 250 Sheet
 
 | # | Problem | Concepts Learned | Status |
@@ -117,6 +130,12 @@ core_java/
 ├── trees/
 ├── graphs/
 ├── DP/
+
+oop/
+└── Object Oriented Programming Concepts
+
+DBMS/
+└── Database Management System Notes
 
 neetcode_250_sheet/
 └── Solved Dsa Problems
