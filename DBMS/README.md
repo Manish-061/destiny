@@ -76,3 +76,5 @@ A structured collection of DBMS, SQL, and MySQL notes for interview preparation 
 - LIMIT
 
 ➡️ See: [05-MySQL-Commands.md](05-MySQL-Commands.md)
+
+➡️ See: [06-MySQL-Joins-Union.md](06-MySQL-Joins-Union.md)
