@@ -52,6 +52,14 @@ Tracking my Data Structures & Algorithms preparation journey with:
 | 6 | Multilevel Inheritance | Inheritance chains, class hierarchy | ✅ |
 | 7 | Hierarchical Inheritance | Multiple derived classes from single base | ✅ |
 | 8 | Encapsulation | Data hiding, getters/setters, access modifiers | ✅ |
+| 9 | Abstract Class Demo | Abstract classes, `abstract` keyword | ✅ |
+| 10 | Inheritance Scenario Question | Inheritance tricky questions, type casting | ✅ |
+| 11 | Interface Class Demo | Interfaces, abstract methods | ✅ |
+| 12 | Interface Demo | Interface implementation details | ✅ |
+| 13 | Method Hiding | Static methods in inheritance | ✅ |
+| 14 | Method Overloading | Compile-time polymorphism | ✅ |
+| 15 | Multiple Inheritance Demo | Achieving multiple inheritance through interfaces | ✅ |
+| 16 | Variable Hiding | Variable shadowing | ✅ |
 
 ## NeetCode 250 Sheet
 
