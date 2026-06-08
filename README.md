@@ -40,6 +40,20 @@ Tracking my Data Structures & Algorithms preparation journey with:
 | 8 | Reverse Array | Two pointers, swapping | ✅ |
 | 9 | Sum Of Elements | Accumulation, traversal | ✅ |
 
+## Exceptions
+
+| # | Topic | Concepts Learned | Status |
+|---|---|---|---|
+| 1 | Try Catch Demo | Basic exception handling | ✅ |
+| 2 | Finally Demo | Finally block execution | ✅ |
+| 3 | Multiple Catch Demo | Handling multiple exceptions | ✅ |
+| 4 | Arithmetic Exception Demo | Division by zero handling | ✅ |
+| 5 | Array Exception Demo | Array index out of bounds | ✅ |
+| 6 | Null Pointer Demo | Null reference handling | ✅ |
+| 7 | Number Format Demo | Invalid number parsing | ✅ |
+| 8 | Invalid Age Exception | Custom exception creation | ✅ |
+| 9 | Age Validator | Throwing custom exceptions | ✅ |
+
 ## Object Oriented Programming (OOP)
 
 | # | Topic | Concepts Learned | Status |
@@ -130,6 +144,7 @@ core_java/
 │
 ├── basics/
 ├── arrays/
+├── exceptions/
 ├── strings/
 ├── hashing/
 ├── linkedList/
